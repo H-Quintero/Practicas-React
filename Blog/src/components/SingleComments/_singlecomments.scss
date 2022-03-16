@@ -1,0 +1,20 @@
+.comment-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 1%;
+  padding: 1.5%;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 10px 10px 25px -10px;
+
+
+  &__name {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__data {
+    margin-bottom: 15px;
+  }
+}

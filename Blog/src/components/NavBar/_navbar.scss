@@ -1,0 +1,22 @@
+.nav {
+  background-color: $secondColor;
+  height: 75px;
+  margin-bottom: 10px;
+  color: $fontColor;
+
+  display: flex;
+  justify-content: center;
+
+  &__links {
+    display: flex;
+    align-items: center;
+
+
+    li {
+      font-size: 1.5rem;
+      list-style: none;
+      margin-right: 3rem;
+      text-decoration: none;
+    }
+  }
+}
